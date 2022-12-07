@@ -30,4 +30,54 @@ public class Resident implements Serializable{
 	
 	@Column(name="")
 	private String apartment;
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public String getCellPhone() {
+		return cellPhone;
+	}
+
+	public void setCellPhone(String cellPhone) {
+		this.cellPhone = cellPhone;
+	}
+
+	public char getBlock() {
+		return block;
+	}
+
+	public void setBlock(char block) {
+		this.block = block;
+	}
+
+	public String getApartment() {
+		return apartment;
+	}
+
+	public void setApartment(String apartment) {
+		this.apartment = apartment;
+	}
+	
+	
 }
