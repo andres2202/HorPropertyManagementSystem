@@ -4,6 +4,7 @@
 	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 	<jta-data-source>java:/MySqlRailway</jta-data-source>
 	<!-- Clases del paquete entity -->
+	<class>uptc.edu.entity.Resident</class>
 	<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://containers-us-west-128.railway.app:7976/railway?useSSL=false"/>
 	      <property name="javax.persistence.jdbc.user" value="root"/>
